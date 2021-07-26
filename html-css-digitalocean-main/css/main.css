@@ -1,0 +1,497 @@
+.debug [class*="col-"] {
+  text-align: center;
+}
+
+header {
+  margin-top: 50px;
+}
+
+/* NAVBAR */
+
+.navbar-default {
+  background-color: white;
+  border: none;
+}
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand img {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.navbar-btn {
+  border-color: #337ab7;
+  color: #337ab7;
+}
+
+.bottone_form_bianco {
+  position: relative;
+}
+
+#logo_nel_bottone {
+  left: 2%;
+  position: absolute;
+  height: 90%;
+}
+
+h6 a:link {
+  text-decoration: underline;
+}
+
+/* PRIMA PARTE DELL'HEADER UNO */
+
+.header-uno {
+  background-image: url("../img/jumbo.svg");
+
+}
+
+.header_uno_text {
+  margin: 40px 0;
+  text-align: left;
+
+}
+
+.header-uno h1 {
+  color: white;
+  text-align: left;
+
+}
+
+.header-uno span {
+  color: silver;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* FORM  PER INSERIRE MAIL E PSW E ACCEDERE */
+
+.my_form {
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.margin_form {
+  margin: 40px 5%;
+}
+
+#title_form {
+  font-size:30px;
+  color: #031c4e;
+  padding-top: 40px;
+  display: block;
+
+
+}
+
+#title_form_blue {
+  font-size:30px;
+  color: #006aff;
+}
+/* Campo inserimento mail e pw */
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bottone_form {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 15px;
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+}
+
+.bottone_form_blue {
+  background-color: #579aff;
+  color: white;
+}
+
+.bottone_form_bianco {
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  box-shadow: 1px 1px #e3e3e3;
+}
+
+.my_form h6 {
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+/* SECONDA PARTE DELL'HEADER */
+
+.header-due {
+  background-color: #f3f5f9;
+}
+
+@media all and (max-width: 748px) {
+}
+
+
+
+
+
+.header-due span {
+  font-size: 17px;
+  color: grey;
+  display: block;
+  margin: 30px 0;
+}
+
+#at_style {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.header-due a {
+  margin: 20px;
+  display: block;
+}
+
+/* MAIN  */ /* MAIN  */ /* MAIN  */ /* MAIN  */ /* MAIN  */
+
+/* LIVELLO UNO DEL MAIN */
+
+
+.livello-uno .container .row:nth-child(2) div {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.livello-uno h1 {
+  margin-top: 70px;
+}
+
+.livello-uno-descrizione {
+  font-size: 21px;
+  color: grey;
+}
+
+.my_line_container {
+  width: 100%;
+}
+
+.my_line {
+  border-left: 1px solid silver;
+  color: grey;
+  font-size: 20px;
+  margin-left: 30%;
+}
+
+@media all and (max-width: 748px) {
+  .my_line {
+    margin-left: 0;
+  }
+}
+
+.my_line ul {
+  list-style-type: none;
+
+}
+
+.my_line ul li {
+  padding: 10px 0;
+}
+
+.livello-uno-descrizione-dx {
+
+  color: grey;
+}
+
+/* LIVELLO DUE DEL MAIN */
+
+.livello-due {
+  background-color: #f3f5f9;
+}
+
+.livello-due h1 {
+  margin: 70px 0 30px 0;
+}
+
+.my_scroll_image {
+  width: 100%;
+  position: relative;
+  margin: 50px 0 20px 0;
+}
+
+.my_screenimage {
+  max-width: 60%;
+
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+.fa-chevron-left {
+  color: #6f7b97;
+}
+
+.fa-chevron-right {
+  color: #031c4e;
+}
+
+@media all and (max-width: 748px) {
+    .fa-chevron-left, .fa-chevron-right {
+        display: none;
+    }
+  }
+
+.fa-circle {
+  color: #006aff;
+  margin-bottom: 50px;
+}
+
+/* LIVELLO TRE DEL MAIN */
+
+.livello-tre h1 {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.livello-tre span {
+  font-size: 20px;
+  color: grey;
+  display: block;
+
+}
+
+.livello-tre .row:last-child div {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+/* LIVELLO QUATTRO DEL MAIN */
+
+.livello-quattro {
+  background-color: #0035af;
+  color: white;
+  background-image: linear-gradient(#0047c5, #00209b);
+}
+
+.livello-quattro h1 {
+  margin-top: 70px;
+}
+
+.my_list_container {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+
+.my_list {
+  border-bottom: 1px solid white;
+
+  width: 100%;
+  height: 100%;
+
+}
+
+.my_list::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.my_list div:first-child {
+  text-align: left;
+  color: white;
+  padding-top: 5px;
+
+}
+
+.my_list div:nth-child(2) {
+  text-align: left;
+  color: silver;
+  padding-top: 5px;
+}
+
+.my_list div:last-child {
+  text-align: right;
+  color: #337ab7;
+  padding-top: 5px;
+}
+
+.my_list_last {
+  border-bottom: none;
+}
+
+/* LIVELLO CINQUE DEL MAIN */
+
+.livello-cinque {
+  background-color: #f3f5f9;
+}
+
+.livello-cinque h1 {
+  color: #031c4e;
+  margin: 60px 0;
+
+}
+
+.my_rockerbox {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+#rockerbox {
+  margin-top: 25px;
+  max-width: 100%;
+  margin-bottom: 15px;
+
+}
+
+.my_rockerbox span {
+  display: block;
+}
+
+
+.rockerbox-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.rockerbox-subtitle {
+  font-size: 16px;
+}
+
+.my_rockerbox a {
+  display: block;
+  padding: 40px 0 50px 0;
+}
+
+.fa-circle {
+  color: #006aff;
+  padding: 30px 0 35px 0;
+}
+
+/* FOOTER */
+
+/* PARTE SUPERIORE DEL FOOTER */
+
+.my_footer_top h1 {
+  margin-top: 50px;
+}
+
+.my_footer_top {
+  background-color: #0035af;
+  background-image: linear-gradient(#0047c5, #00209b);
+  color: white;
+}
+
+.a_button {
+  font-size: 20px;
+  color: #006aff;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 20px 0 70px 0;
+  display: inline-block;
+}
+
+/* PARTE INFERIORE DEL FOOTER */
+
+.my_footer_down {
+  background-color: #031c4e;
+}
+
+.my_footer_down h4 {
+  color: white;
+}
+
+.my_footer_down .container .row div {
+  text-align: left;
+  margin-top: 30px;
+
+}
+
+.footer_wr {
+  color: grey;
+  font-size: 20;
+  display: block;
+}
+
+.footer_logo_subtitle {
+  color: silver;
+  display: block;
+}
+
+.social_span i {
+  color: grey;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.social_span i:first-child {
+  padding-left: 0px;
+}
+
+.my_footer_down {
+  position: relative;
+}
+
+.my_footer_down ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.my_footer_down ul li {
+
+  color: grey;
+  text-align: left;
+}
+
+.my_helper {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.my_helper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.my_helper_request,
+.my_helper_mascotte {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+
+.my_helper_request img {
+  width: 120px;
+  height: 80px;
+  right: 0;
+}
+
+.my_helper_mascotte img {
+  width: 75px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.my_helper_ask {
+  position: absolute;
+  left: 27px;;
+  top: 9px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+
+}
